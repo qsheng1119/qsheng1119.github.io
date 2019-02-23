@@ -1,0 +1,103 @@
+/*
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Major Mono Display', monospace;
+*/
+body{
+  background: linear-gradient(#D3DBE8,#70A1B3);
+}
+
+.profilephoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  color: #4D688F;
+  font-family: 'Monoton', cursive;
+  font-size: 36pt;
+  margin-bottom: 1px;
+  text-shadow: 5px 5px #22558866;
+}
+
+.secondarycolor{
+  color: #768CAC;
+  font-family:'Rajdhani', sans-serif;
+  background-color: #FFFFFF66;
+}
+
+p{
+  font-family: 'Economica', sans-serif;
+}
+
+ul,ol{
+  font-family: 'Economica', sans-serif;
+}
+
+tr{
+  font-family: 'Major Mono Display', monospace;
+}
+
+td{
+  font-family: 'Economica', sans-serif;
+}
+
+.list_title{
+  color: #D0E6EE;
+  font-weight: 600;
+  border-bottom: 2px dotted #477D92;
+}
+
+a{
+  text-decoration: none;
+  color:#5F6F95;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: none;
+  color:#FFFFFF;
+  border-bottom: 1px solid white;
+}
+
+.navigation{
+  font-size: 20px;
+  list-style: none;
+  padding-left: 0;
+  padding: 10px;
+  border: 5px dotted white;
+  background-color: #B2CCD5;
+}
+.navigation li{
+  display: inline-block;
+  margin-left: 25px;
+  font-family: 'Poiret One', cursive;
+}
+.navigation a{
+  font-weight: bold;
+  font-size: 24px;
+  color:#3B4E79;
+  text-decoration: none;
+}
+.navigation a:hover{
+  color:#489397;
+  background-color:#E1E5EC;
+  text-shadow: 2px 2px #22558866;
+}
+
+#contact{
+  text-align: center;
+  background-color: #FFFFFF66
+}
+
+address{
+  text-align: center;
+  color: white;
+}
+
+.btt{
+  font-size: 8pt;
+  text-align: center;
+}
