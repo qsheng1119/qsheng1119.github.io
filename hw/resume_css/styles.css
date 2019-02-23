@@ -39,10 +39,12 @@ ul,ol{
 
 tr{
   font-family: 'Major Mono Display', monospace;
+  text-align: center;
 }
 
 td{
   font-family: 'Economica', sans-serif;
+  text-align: center;
 }
 
 .list_title{
