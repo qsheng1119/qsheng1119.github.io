@@ -1,0 +1,50 @@
+body,html{
+  padding: 0;
+  margin: 0;
+}
+.margin10{
+margin:10px;
+}
+.largeslide{
+  max-width: 100%;
+}
+.smallslide{
+  display: none;
+}
+.border{
+  border: 1px solid #000000;
+}
+body{
+  background: #666666;
+}
+main{
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: #cccccc;
+}
+header{
+  text-align: center;
+}
+section{
+  min-height: 100px;
+}
+.leftcolumn{
+  display: block;
+  width:300px;
+  min-height: 100px;
+  float: left;
+}
+.rightcolumn{
+  display: block;
+  width: 570px;
+  min-height: 100px;
+  float:right;
+  padding: 10px;
+}
+.clear{
+  clear: both;
+}
