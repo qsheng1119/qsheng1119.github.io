@@ -1,7 +1,7 @@
-.article1{
+.opencity{
   grid-template-columns: 2fr 2fr;
 }
-.article2{
+.description{
   text-align: justify;
   grid-template-columns: 2fr 2fr 2fr 2fr;
 }
