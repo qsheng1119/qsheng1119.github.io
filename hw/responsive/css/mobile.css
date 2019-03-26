@@ -1,0 +1,40 @@
+.article2{
+  text-align: justify;
+  grid-template-columns:2fr 2fr;
+}
+
+header{
+  text-align: center;
+}
+
+div{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li{
+  margin-left: 15px;
+  list-style: none;
+}
+
+nav a:hover{
+  display: block;
+  background: #1D2C50;
+  text-align: center;
+}
+
+.vending{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
+.gallery{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.gallery img{
+  border: 3px solid white;
+  margin: 1px;
+}
