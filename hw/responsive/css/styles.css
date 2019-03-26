@@ -11,8 +11,8 @@ font-family: 'Poiret One', cursive;
 
 .generalbackground{background: #D8E0EA}
 
-.opencity,
-.description,
+.article1,
+.article2,
 .article3{display: grid;}
 
 p{
