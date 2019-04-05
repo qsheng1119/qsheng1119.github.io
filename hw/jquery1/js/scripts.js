@@ -41,6 +41,9 @@ $('.next').on('click',function(){
     $('.next').hide();
     $('#final').show().html('<strong>Start Again?<strong>');
   }
+  else{
+      $('#final').hide();
+  }
   if(step <=9){
     $('#step'+step).show();
     $('#stepinfo').text('Step '+step+': '+titles[step-1]);
