@@ -1,0 +1,145 @@
+/*.color-primary-0 { color: #FFC34C }
+.color-primary-1 { color: #FFE3AC }
+.color-primary-2 { color: #FFD277 }
+.color-primary-3 { color: #FFB41F }
+.color-primary-4 { color: #FFAA00 }
+.color-primary-0 { color: #FF8C4C }
+.color-primary-1 { color: #FFCAAC }
+.color-primary-2 { color: #FFA877 }
+.color-primary-3 { color: #FF701F }
+.color-primary-4 { color: #FF5C00 }
+font-family: 'Indie Flower', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+
+h1{
+  font-family:'Indie Flower', cursive;
+  font-size: 60px;
+  border-bottom: 5px dotted #FF5C00;
+}
+
+p,ul{
+  background: #FFFFFF55;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  border: 3px dotted #FF5C00;
+}
+
+p{padding: 10px;}
+
+.material{
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+
+img{
+  width:100%;
+}
+
+h3, h2{
+  font-family: 'Poiret One', cursive;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #FFF, 3px 3px 5px yellow;
+}
+
+#step1 div{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#step3 div{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#step7 div{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+#final{
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: px;
+  width: 100px;
+  opacity: 0.6;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.prev span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prev span:before {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.prev:hover span {
+  padding-left: 25px;
+}
+
+.prev:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+.next span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next span:before {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.next:hover span {
+  padding-right: 25px;
+}
+
+.next:hover span:before {
+  opacity: 1;
+  right: 0;
+}
