@@ -74,6 +74,24 @@ a{
   color: #FFF;
 }
 
+.home{
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  width: 100px;
+  opacity: 0.6;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.home:hover{opacity: 1;}
+
 button {
   display: inline-block;
   border-radius: 4px;
