@@ -21,7 +21,6 @@
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  max-width: 100%;
 }
 
 .tps-wrapper {
@@ -39,8 +38,8 @@
   margin: 0;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 235px;
-  padding-bottom: 235px;
+  padding-top: 285px;
+  padding-bottom: 285px;
   font-family: 'Rajdhani', sans-serif;
   color: #fff;
   background-color: #00000022;
@@ -53,103 +52,103 @@
   background-image: url(../images/thebund.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page21 .tps-wrapper{
   background-image: url(../images/lujiazui.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page31 .tps-wrapper{
   background-image: url(../images/nanjingRoad.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page41 .tps-wrapper{
   background-image: url(../images/xintiandi.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page51 .tps-wrapper{
   background-image: url(../images/yugarden.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page12 .tps-wrapper{
   background-image: url(../images/meiji.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page22 .tps-wrapper{
   background-image: url(../images/sensoji.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page32 .tps-wrapper{
   background-image: url(../images/tokyotower.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page42 .tps-wrapper{
   background-image: url(../images/skytree.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page52 .tps-wrapper{
   background-image: url(../images/tokyostation.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page13 .tps-wrapper{
   background-image: url(../images/liberty.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page23 .tps-wrapper{
   background-image: url(../images/empire.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page33 .tps-wrapper{
   background-image: url(../images/central.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page43 .tps-wrapper{
   background-image: url(../images/rockefeller.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .page53 .tps-wrapper{
   background-image: url(../images/brooklyn.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
