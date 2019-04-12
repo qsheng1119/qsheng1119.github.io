@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shanghai</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fascinate+Inline|Rajdhani" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+  </head>
+  <body>
+    <div>
+      <section>
+        <h1>Shanghai</h1>
+        <p>Shanghai, on China’s central coast, is the country's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises the Pudong district’s futuristic skyline, including 632m Shanghai Tower and the Oriental Pearl TV Tower, with distinctive pink spheres. Sprawling Yu Garden has traditional pavilions, towers and ponds.</p>
+      </section>
+    </div>
+    <div class="main">
+      <section class="page11">
+        <h2>The Bund</h2>
+      </section>
+      <section class="page21">
+        <h2>Lujiazui</h2>
+      </section>
+      <section class="page31">
+        <h2>Nanjing Road</h2>
+      </section>
+      <section class="page41">
+        <h2>Xintiandi</h2>
+      </section>
+      <section class="page51">
+        <h2>Yu Garden</h2>
+      </section>
+    </div>
+
+
+    <a href="index.html" class="home">Back to Home</a>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script type="text/javascript" src="tiltedpage_scroll-master/jquery.tiltedpage-scroll.min.js">
+    </script>
+    <script type="text/javascript">
+      $('document').ready(function(){
+        $(".main").tiltedpage_scroll({
+          sectionContainer: "> section",
+          angle: 50,
+          opacity: true,
+          scale: true,
+          outAnimation: true
+        });
+      });
+    </script>
+  </body>
+</html>

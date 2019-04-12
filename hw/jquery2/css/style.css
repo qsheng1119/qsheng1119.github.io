@@ -1,0 +1,142 @@
+/*font-family: 'Fascinate Inline', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Rajdhani', sans-serif;*/
+
+html{height: 100%;}
+
+img{
+  width: 100%;
+  padding-top: 50px;
+}
+
+header{
+  border: 2px ridge #BEA28A;
+  border-radius: 15px;
+  margin: 20px;
+  background: #BEA28A22;
+}
+
+.toggle-panel{
+  text-decoration: none;
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #BEA28A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  width: 60px;
+  opacity: 0.6;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.toggle-panel:hover{opacity: 1;}
+
+.toggle-panel span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.toggle-panel span:before {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.toggle-panel:hover span {
+  padding-left: 25px;
+}
+
+.toggle-panel:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+
+h1{
+  font-family:'Fascinate Inline', cursive;
+  color:#8C5A31;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 2px 2px #BEA28A;
+}
+
+nav{
+  border: 3px dotted #BEA28A;
+  margin: 20px;
+  width: auto;
+}
+
+nav li{
+list-style: none;
+text-align: center;
+text-decoration: underline;
+}
+
+ul{
+  padding: 15px;
+}
+
+nav a{
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: #AB7B53;
+}
+
+nav a:hover{
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  text-decoration: none;
+  color: #AB7B53;
+
+}
+
+p{
+margin: 20px;
+font-family: 'Rajdhani', sans-serif;
+color: #6E5540;
+}
+
+body{
+  background: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+
+.main{
+  overflow: hidden;
+  float: left;
+  width:100%;
+  margin: 0 auto 350px;
+}
+
+
+.home{
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #BEA28A;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  width: 100px;
+  opacity: 0.6;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.home:hover{opacity: 1;}

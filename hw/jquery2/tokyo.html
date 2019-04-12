@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tokyo</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fascinate+Inline|Rajdhani" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+  </head>
+  <body>
+    
+    <div class="">
+      <section class="page2">
+        <h1>Tokyo</h1>
+        <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum).</p>
+      </section>
+    </div>
+  </div>
+
+  <div class="main">
+    <section class="page12">
+      <h2>Meiji Jingu</h2>
+    </section>
+    <section class="page22">
+      <h2>Sensō-ji Temple</h2>
+    </section>
+    <section class="page32">
+      <h2>Tokyo Tower</h2>
+    </section>
+    <section class="page42">
+      <h2>Sky Tree</h2>
+    </section>
+    <section class="page52">
+      <h2>Tokyo State</h2>
+    </section>
+  </div>
+
+    <a href="index.html" class="home">Back to Home</a>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script type="text/javascript" src="tiltedpage_scroll-master/jquery.tiltedpage-scroll.min.js">
+    </script>
+    <script type="text/javascript">
+      $('document').ready(function(){
+        $(".main").tiltedpage_scroll({
+          sectionContainer: "> section",
+          angle: 50,
+          opacity: true,
+          scale: true,
+          outAnimation: true
+        });
+      });
+    </script>
+  </body>
+</html>

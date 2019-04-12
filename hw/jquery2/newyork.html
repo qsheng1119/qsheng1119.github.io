@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New York</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fascinate+Inline|Rajdhani" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+  </head>
+  <body>
+    <div class="">
+      <section class="last-page">
+        <h1>New York</h1>
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.</p>
+      </section>
+    </div>
+
+    <div class="main">
+      <section class="page13">
+        <h2>Statue of Liberty</h2>
+      </section>
+      <section class="page23">
+        <h2>Empire State Building</h2>
+      </section>
+      <section class="page33">
+        <h2>Central Park</h2>
+      </section>
+      <section class="page43">
+        <h2>Rockefeller Center</h2>
+      </section>
+      <section class="page53">
+        <h2>Brooklyn Bridge</h2>
+      </section>
+    </div>
+
+    <a href="index.html" class="home">Back to Home</a>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script type="text/javascript" src="tiltedpage_scroll-master/jquery.tiltedpage-scroll.min.js">
+    </script>
+    <script type="text/javascript">
+      $('document').ready(function(){
+        $(".main").tiltedpage_scroll({
+          sectionContainer: "> section",
+          angle: 50,
+          opacity: true,
+          scale: true,
+          outAnimation: true
+        });
+      });
+    </script>
+  </body>
+</html>
