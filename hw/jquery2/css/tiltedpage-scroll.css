@@ -1,6 +1,6 @@
 .tps-section {
   width: 100%;
-  height: 500px;
+  height: 700px;
   -webkit-perspective: 10em;
   -moz-perspective: 10em;
   -ms-perspective: 10em;
@@ -38,8 +38,8 @@
   margin: 0;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 385px;
-  padding-bottom: 385px;
+  padding-top: 335px;
+  padding-bottom: 335px;
   font-family: 'Rajdhani', sans-serif;
   color: #fff;
   background-color: #00000022;
@@ -53,7 +53,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page21 .tps-wrapper{
@@ -61,7 +61,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page31 .tps-wrapper{
@@ -69,7 +69,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page41 .tps-wrapper{
@@ -77,7 +77,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page51 .tps-wrapper{
@@ -85,7 +85,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page12 .tps-wrapper{
@@ -93,7 +93,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page22 .tps-wrapper{
@@ -101,14 +101,14 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page32 .tps-wrapper{
   background-image: url(../images/tokyotower.jpg);
   -webkit-background-size:cover;
   background-size: cover;
-  height: 800px;
+  height: 700px;
 }
 
 .page42 .tps-wrapper{
@@ -116,7 +116,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page52 .tps-wrapper{
@@ -124,7 +124,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page13 .tps-wrapper{
@@ -132,7 +132,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page23 .tps-wrapper{
@@ -140,7 +140,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page33 .tps-wrapper{
@@ -148,7 +148,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page43 .tps-wrapper{
@@ -156,7 +156,7 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
 
 .page53 .tps-wrapper{
@@ -164,5 +164,5 @@
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 700px;
 }
